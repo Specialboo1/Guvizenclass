@@ -1,0 +1,8 @@
+Statically Typed & Programming Language:
+                Data types are defined in the program itself, if it is not defined compiler itself will throw error, we cannote create executeable. Compiler will compile whole program at once if it is error free then executable will be created. Program will be error free. Source Code privacy. Platform dependent. Eg: C, C++, JAVA.
+                
+Dynamically Typed & Script Language:
+                Data type will be assumed by intrepretor, each line of program will run by intrepretor which will throw error at run time. program run timme will be faster. Can be used in cross platform, Code privacy will not be there. Eg: JS, Python, Ruby, Perl.
+                
+Java Script and NodeJs
+                Java script can run in bowser only, it converts xml or html into DOM in the client side. It can be run on any engine. NodeJs can run outside the browser on the server side development. It can run only in V8 Engine.
