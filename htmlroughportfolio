@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Guvi Assignment</title>
+</head>
+<style>
+    .city {
+      background-color: rgb(47, 85, 67);
+      color: rgb(255, 255, 255);
+      border: 2px solid black;
+      margin: 20px;
+      padding: 20px;
+          }
+          .all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+ </style>
+<body>
+<h1>Sports</h1>
+
+<article class="all-browsers">
+<p><front colour="blue"><section>Sport pertains to any form of competitive physical activity or game[1] that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators.[2] Sports can, through casual or organized participation, improve one's physical health. Hundreds of sports exist, from those between single contestants, through to those with hundreds of simultaneous participants, either in teams or competing as individuals. In certain sports such as racing, many contestants may compete, simultaneously or consecutively, with one winner; in others, the contest (a match) is between two sides, each attempting to exceed the other. Some sports allow a "tie" or "draw", in which there is no single winner; others provide tie-breaking methods to ensure one winner and one loser. A number of contests may be arranged in a tournament producing a champion. Many sports leagues make an annual champion by arranging games in a regular sports season, followed in some cases by playoffs.</section>
+
+   <section> 
+    <h2>Section2 of Sports</h2>
+    Sport is generally recognised as system of activities based in physical athleticism or physical dexterity, with major competitions such as the Olympic Games admitting only sports meeting this definition.[3] Other organisations, such as the Council of Europe, preclude activities without a physical element from classification as sports.[2] However, a number of competitive, but non-physical, activities claim recognition as mind sports. The International Olympic Committee (through ARISF) recognises both chess and bridge as bona fide sports, and SportAccord, the international sports federation association, recognises five non-physical sports: bridge, chess, draughts (checkers), Go and xiangqi,[4][5] and limits the number of mind games which can be admitted as sports.[1]</section></front></p>
+<p style = "color:lightseagreen">
+</article>
+    <div class="city">
+    <form action="/Thankyou">
+        <label for="sport1">Interested Game 1:</label><br>
+        <input type="text" id="sport1"><br>
+        <label for="sport2">Interested Game 2</label><br>
+        <input type="text" id="sport2"><br><br>
+        <input type="checkbox" id="option1">
+  <label for="option1"> I Play</label><br>
+  <input type="checkbox" id="option2" >
+  <label for="option2"> I Watch</label><br>
+  <input type="checkbox" id="option3">
+  <label for="option3"> I Do Both</label> <br><br>
+  <input type="submit" value="Submit"><br><br>
+      </form> </div>
+</body>
+</html>
