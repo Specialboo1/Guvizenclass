@@ -1,0 +1,70 @@
+class movie
+{
+  rating = "PG"
+  constructor(title, studio, rating)
+  {
+this.title = title;
+this.studio = studio;
+ if (typeof rating === 'undefined')
+this.rating = "PG";
+else
+this.rating = rating;
+  }
+get PG() {
+if (this.rating ==="PG")
+{
+  return this.title
+}
+return "Movie is not rated as PG";
+}
+}
+let a = new movie("cover", "gemini", "PR")
+console.log(a.PG);
+
+
+class circle {
+  constructor(radius)
+  {
+    this.radius = radius;
+  }
+  get circumference()
+  {
+    return 2*Math.PI*this.radius;
+  }
+}
+let circle1 = new circle(5);
+console.log(circle1.circumference)
+
+
+class person {
+  constructor(name,age,weight,height,color)
+  {
+    this.name = name;
+    this.age = age;
+    this.weight = weight;
+    this.height = height;
+    this.color = color;
+  }
+}
+let person1 = new person("gopal",30,75,170,"black");
+console.log(person1)
+
+
+class passengerchoice{
+  constructor(option)
+  {
+    this.option = option;
+  }
+  price(count,distance)
+  {
+    this.count = count;
+    this.distance = distance;
+    if (this.option === "premium")
+    return this.count*this.distance*20;
+    else if (this.option === "economy")
+    return this.count*this.distance*15;
+    return "Invalid choice"
+  }
+}
+let journerychoice = new passengerchoice("economy");
+console.log(journerychoice.price(2,50));
